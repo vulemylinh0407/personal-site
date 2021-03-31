@@ -42,7 +42,7 @@ header img {
   animation: move 3s linear infinite;
 }
 
-@-webkit-keyframes move {
+@keyframes move {
   100% {
     motion-offset: 100%;
     offset-distance: 100%;
@@ -60,7 +60,7 @@ header img {
   animation: rotation 2s infinite linear;
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
   from {
     transform: rotate(0deg);
     transform-origin: center;
@@ -87,7 +87,7 @@ header img {
   animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes intro {
+@keyframes intro {
   from{
     transform: translateY(0);
   }
@@ -108,7 +108,7 @@ header img {
   animation: move 3s linear infinite;
 }
 
-@-webkit-keyframes move {
+@keyframes move {
   100% {
     motion-offset: 100%;
     offset-distance: 100%;
@@ -124,7 +124,7 @@ transform: translate(-50%, -50%);
   animation: rotation 2s infinite linear;
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
   from {
     transform: rotate(0deg);
     transform-origin: center;
@@ -137,7 +137,7 @@ transform: translate(-50%, -50%);
   }
 }
 
-@-webkit-keyframes intro {
+@keyframes intro {
   from{
     transform: translateY(0);
   }
@@ -671,7 +671,7 @@ margin-left: -5em;
 }
 
 .card4-image:hover {
-	background: url("img/work1-review.jpg");
+	background: url("img/tsuraimi-preview.jpg");
 	background-size: 600px;
 	background-repeat: no-repeat;
 	background-position:center;
@@ -1079,6 +1079,32 @@ h1 {
 	width: 95%;
 }
 
+/* WORK 4 */
+.tsuraimi-logo {
+	width: 70%;
+	padding-top: 5em;
+}
+
+.tsuraimi-uniform {
+	width: 35%;
+	padding-top: 5em;
+}
+
+.tsuraimi-takeaway {
+	width: 40%;
+	padding-top: 5em;
+}
+
+.grid-tsuraimi-brandbook {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-row-gap: 2em;
+	padding-top: 5em;
+}
+
+.grid-tsuraimi-brandbook img {
+	width: 95%;
+}
 
 /* WORK 2 */
 
