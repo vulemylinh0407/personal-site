@@ -750,7 +750,7 @@ margin-left: -5em;
 }
 
 .card5-image:hover {
-	background: url("img/work1-review.jpg");
+	background: url("img/giantfalling-preview.jpg");
 	background-size: 600px;
 	background-repeat: no-repeat;
 	background-position:center;
@@ -829,14 +829,173 @@ margin-left: -5em;
 }
 
 .card6-image:hover {
-	background: url("img/work1-review.jpg");
-	background-size: 600px;
+	background: url("img/BWR-mockup1.png");
+	background-size: 580px;
 	background-repeat: no-repeat;
 	background-position:center;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
 .card6:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+
+/* CARD 7 */
+.card7 {
+  display: grid;
+  grid-template-columns: 480px;
+  grid-template-rows: 300px 55px 55px;
+  grid-template-areas: "image" "text";
+
+  background: black;
+  text-align: center;
+	color: white;
+	border-radius: 5%;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.card7-image {
+  grid-area: image;
+	background: url("img/moon7.svg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: 150px;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.card7-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card7-text .date {
+  color: rgb(255, 7, 110);
+  font-size:13px;
+}
+.card7-text p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card7-text h1 {
+	font-size:20px;
+	font-weight: 600;
+  margin-top:0px;
+
+}
+.card7-stats {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card7-stats .stat {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.card7-stats .value{
+  font-size:15px;
+  font-weight: 300;
+}
+
+.card7-image:hover {
+	background: url("img/blacklist-posters-mockup.png");
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position:center;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.card7:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/* CARD 8 */
+.card8 {
+  display: grid;
+  grid-template-columns: 480px;
+  grid-template-rows: 300px 55px 55px;
+  grid-template-areas: "image" "text";
+
+  background: black;
+  text-align: center;
+	color: white;
+	border-radius: 5%;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.card8-image {
+  grid-area: image;
+	background: url("img/moon8.svg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: 150px;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.card8-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card8-text .date {
+  color: rgb(255, 7, 110);
+  font-size:13px;
+}
+.card8-text p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card8-text h1 {
+	font-size:20px;
+	font-weight: 600;
+  margin-top:0px;
+
+}
+.card8-stats {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card8-stats .stat {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.card8-stats .value{
+  font-size:15px;
+  font-weight: 300;
+}
+
+.card8-image:hover {
+	background: url("img/magazine-015.jpg");
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position:center;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.card8:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
@@ -1523,6 +1682,32 @@ line-height: 1.5em;
 
 .grid-wraps-mockup img {
 	width: 90%;
+}
+
+.tsuraimi-logo {
+	width: 100%;
+	padding-top: 5em;
+}
+
+.tsuraimi-uniform {
+	width: 55%;
+	padding-top: 5em;
+}
+
+.tsuraimi-takeaway {
+	width: 60%;
+	padding-top: 5em;
+}
+
+.grid-tsuraimi-brandbook {
+	display: grid;
+	grid-template-columns: auto;
+	grid-row-gap: 2em;
+	padding-top: 5em;
+}
+
+.grid-tsuraimi-brandbook img {
+	width: 100%;
 }
 
 }
