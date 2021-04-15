@@ -1267,6 +1267,19 @@ h1 {
 
 /* WORK 2 */
 
+.thesis-book {
+	margin-top: 3em;
+}
+
+.thesis-book a{
+	font-size: 21px;
+}
+
+.thesis-book a:hover{
+	color: blue;
+}
+
+
 .grid-logo-explain {
 	display: grid;
 	grid-template-columns: auto auto auto;
